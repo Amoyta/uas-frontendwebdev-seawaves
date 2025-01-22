@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Wave - Dive Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        html, body {
+            height: 100%;
+             margin: 0;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+        .gallery-img {
+            width: 100%; /* Mengisi kolom sepenuhnya */
+            height: 150px; /* Tinggi seragam untuk semua gambar */
+            object-fit: cover; /* Menyesuaikan tanpa distorsi */
+            border-radius: 8px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+        .captcha-img {
+            height: 40px;
+            width: auto;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+  <div class="vh-100">
+    <div id="main-carousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner h-100">
+            <div class="carousel-item h-100 active">
+                <img src="3sertificate.jpg" class="h-100 w-100 object-fit-cover" alt="..." />
+            </div>
+            <div class="carousel-item h-100">
+                <img src="1 nemo.jpg" class="h-100 w-100 object-fit-cover" alt="..." />
+            </div>
+            <div class="carousel-item h-100">
+                <img src="2 pepole_underwater.jpg" class="h-100 w-100 object-fit-cover" alt="..." />
+            </div>
+            <div class="carousel-item h-100">
+                <img src="4 turtle.jpg" class="h-100 w-100 object-fit-cover" alt="..." />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  </div>
+
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sea Waves</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#kedua">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#ketiga">Courses & Prices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#keempat">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#kelima">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid my-5" id="About" id="pertama"> 
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <h1 class="text-center">WELCOME TO SEA WAVES</h1>
+            <h1 class=" mx-5 border-bottom border-3"></h1>
+            <div class="title mx-5 my-5">
+              <P>Sea Waves is one of Bali’s longest established, internationally accredited Dive Centers. Founded and operated by an Amed local who is engrained in the local community and committed to environmental sustainability. </P>
+              <P>Dive the famous sites of Amed Bali including Tulamben’s USAT Liberty Shipwreck, Bunutan and the Japanese Shipwreck, the Jemeluk Wall and the Coral Garden - to name just a few - in an intimate team setting where you know you will get the level of care you are after. </P>
+              <P>Operated by excellently trained and certified local dive instructors, Sea Waves ensure a enjoyable and memorable experience. Relax and be one with the sea.</P>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mx-0 g-5 justify-content-center overflow-hidden">
+          <div class="card mx-5 px-0" style="width: 18rem;">
+            <img src="card amed.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Amed</h5>
+              <p class="card-text">Amed is a stunning location with some amazing diving, there is the popular dive site where all the man made pyramids have been constructed, giving life and shelter to so many fish species in the area.</p>
+            </div>
+          </div>
+          <div class="card px-0" style="width: 18rem;">
+            <img src="card tulamben.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Tulamben</h5>
+              <p class="card-text">Tulamben is the home of the amazing USAT Liberty Ship wreck the wreck sits in 3m – 28m of water and is a perfect dive for all levels. There is also some amazing other dive sites, Drop Off and coral Garden</p>
+            </div>
+          </div>
+          <div class="card mx-5 px-0" style="width: 18rem;">
+            <img src="card dive courses.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Dive Courses</h5>
+              <p class="card-text">From the Beginners diving courses, all the way to Dive Pro. Check out how you can learn new skills and have great dives at the same time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5 p-0" id="About"> 
+        <div class="row mx-0 justify-content-center">
+          <div class="col-11">
+            <h1 class="text-center" id="kedua">ABOUT US</h1>
+            <h1 class=" mx-5 border-bottom border-3"></h1>
+            <div class="row mx-5 my-5">
+                <div class="col-md-6">
+                    <img src="about1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>Sariana opened Sea Waves in 2015 to share his passion for diving with diving enthusiasts and beginners alike. At Sea Waves our motivation is to share our love of the underwater world with both visitors from around the world as well as with the local Amed people.<p>
+                    <p>Sariana started his underwater-life path back in 1993 with the Open Water Dive Course; he then spent many years subsequently diving and teaching around Bali, particularly in the Sanur area, eventually gaining his PADI Dive Instructor qualification in 2001.</p>
+                    <p>24 years into this love of the exploration of the underwater realm and with a burgeoning desire to educate the Balinese about the environment, Sariana returned to his home town of Amed.</p>
+                    <p>In 2013 Sariana became the first local dive instructor to operate in this now famous diving region of Bali, as recently as 2013 very few Balinese locals were interested in or had thought to appreciate this particular aspect of their natural surroundings. Sariana has a strong calling to teach his people and show them the world below the surface and in turn help to grow a better understanding within his community of how it should treated. This was the driving force behind Sariana’s decision to return home to Amed.</p>
+                    <p>Two years later Sea Waves was established as a natural step in this pursuit to continue to Introduce locals and visitors to the beauty of Amed’s underwater secrets with the assurance of qualified instructors with a strong environmentalist and community awareness.</p>
+                    <p>Our approach is to follow the Zen Buddhist beliefs of respect for all living creatures. We will teach you to be at one with the sea. Our staff at Sea Waves will fill you with confidence for your first dive or enhance your existing diving skills and life experiences for the more practised divers.</p>
+                    <p>Visit the world famous Tulamben USS Liberty Shipwreck dive site, the Coral Garden, the Drop-Off as well as the Japanese Shipwreck to name just a few – all within easy distance of our dive center in Amed.</p>
+                    <p>Seeing Amed’s dive sites through the eyes of an environmentalist instructor team with Zen beliefs - is an unforgettable experience that may just change your life. We hope to see you in our little piece of paradise, our Sea garden, for a coffee or two and a chat about Amed’s immense natural beauty and how to respectfully explore it.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text-center mt-5" id="ketiga">COURSES & PRICES</h1>
+    <h1 class=" mx-5 border-bottom border-3"></h1>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Discover Scuba Diving -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">Discover Scuba Diving</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>1x Dive : Rp 1.000.000 / Person</p>
+                        <p>2x Dive : Rp 1.200.000 / Person</p>
+                        <a href="form.html?package=Discover%20Scuba%20Diving" class="btn btn-primary w-100">Inquire Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fun Dive for Certified Divers -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">Fun Dive for Certified Divers</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>1x Dive : Rp 700.000 / Person</p>
+                        <p>2x Dive : Rp 1.000.000 / Person</p>
+                        <p>3x Dive : Rp 1.400.000 / Person</p>
+                        <p>4x Dive : Rp 1.800.000 / Person</p>
+                        <p>5x Dive : Rp 2.200.000 / Person</p>
+                        <p>Night Dive : Rp 700.000 / Person</p>
+                        <a href="form.html?package=Fun%20Dive%20for%20Certified%20Divers" class="btn btn-primary w-100">Inquire Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PADI Dive Courses -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">Padi Dive Courses</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Open Water Dive (OWD) 3Day Rp 5.250.000</p>
+                        <p>Advanced Open Water Diver (AOW) 2Day Rp 5.000.000</p>
+                        <p>Emergency First Response (EFR) 1Day Rp 3.300.000</p>
+                        <p>Rescue Diver 3Day Rp 5.300.000</p>
+                        <p>Scuba Refresher 1Day Rp 1.200.000</p>
+                        <a href="form.html?package=Padi%20Dive%20Courses" class="btn btn-primary w-100">Inquire Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 mb-5">
+            <div class="col-12">
+                <p class="mb-0"><strong>All Price Included:</strong> Standard Scuba Diving equipment, Transport, PADI E-Learning, Instructor, Certification fee, lunch, Mineral Water.</p>
+                <p class="mb-0">- Minimum number of participants: 2 persons.</p>
+                <p class="mb-0">- Use all your Scuba Diving equipment discount Rp 100.000.</p>
+                <p class="mb-0">- Some boat dive sites in Tulamben, Amed, and Bunutan require additional boat charge.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4" id="keempat">SCUBA DIVING GALLERY</h1>
+        <h1 class=" mx-3 border-bottom border-3"></h1>
+        <div class="row g-3 mt-3 mb-5">
+            <!-- Repeat this column for each image -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="1.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="2.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="3.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="4.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="5.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="6.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="7.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="8.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="9.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="10.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="11.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="12.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="13.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="15.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="16.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <img src="17.jpg" alt="Scuba Image" class="img-fluid gallery-img">
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+
+    <div class="container mt-5 p-0">
+        <h1 class="text-center mb-4" id="kelima">CONTACT US</h1>
+        <h1 class=" mx-3 border-bottom border-3"></h1>
+        <div class="row my-5">
+            <!-- Form Section -->
+            <div class="col-md-6 px-5">
+                <h4 class="mb-4">Send us a Message</h4>
+                <form class="fs-6">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name:</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phoneNumber" class="form-label">Phone Number:</label>
+                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailAddress" class="form-label">Email Address:</label>
+                        <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="spamFilter" class="form-label">* Spam Filter:</label>
+                        <div class="d-flex align-items-center">
+                            <img src="/php_captcha.php" alt="Captcha" class="captcha-img me-2">
+                            <input type="text" class="form-control" id="spamFilter" placeholder="Please enter the string">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+  
+            <!-- Gallery Section -->
+            <div class="col-md-6 px-5">
+              <h4 class="mb-4">Contact Us</h4>
+              <p>Jalan I Ketut Natih - Amed - Karangasem<br>Bali 80852, Indonesia</p>
+              <p class="lh-lg my-4">
+                <i class="bi bi-telephone-fill"></i>  Phone: +62 989-9000-0000<br>
+                <i class="bi bi-whatsapp"></i>  WhatsApp: +62 838-8888-9111<br>
+                <i class="bi bi-envelope-fill"></i>  Email: <a href="mailto:seawaves@gmail.com" class="text-secondary text-decoration-underline">seawaves@gmail.com</a><br>
+                <i class="bi bi-clock-fill"></i>  Hours: Monday - Friday: 9:00 AM to 5:00 PM
+              </p>
+            </div>
+        </div>
+      </div>
+
+      <footer class="bg-dark text-white pt-5">
+        <div class="container">
+          <div class="row text-secondary">
+            <!-- Contact Section -->
+            <div class="col-md-6 mb-4 ">
+              <h3 class="fw-bold">Contact Us</h3>
+              <p>Jalan I Ketut Natih - Amed - Karangasem<br>Bali 80852, Indonesia</p>
+              <p class="lh-lg my-4">
+                <i class="bi bi-telephone-fill"></i> <strong>Phone:</strong> +62 989-9000-0000<br>
+                <i class="bi bi-whatsapp"></i> <strong>WhatsApp:</strong> +62 838-8888-9111<br>
+                <i class="bi bi-envelope-fill"></i> <strong>Email:</strong> <a href="mailto:seawaves@gmail.com" class="text-secondary text-decoration-underline">seawaves@gmail.com</a><br>
+                <i class="bi bi-clock-fill"></i> <strong>Hours:</strong> Monday - Friday: 9:00 AM to 5:00 PM
+              </p>
+              <a href="https://wa.me/6283852478903" class="btn btn-success mt-2">
+                <i class="bi bi-whatsapp"></i> Chat with us on WhatsApp
+              </a>
+            </div>
+            <!-- Stay Connected Section -->
+            <div class="col-md-6 fs-5">
+              <div class="border-0 p-0 rounded">
+                <h3 class="fw-bold">Stay Connected</h3>
+                <div class="facebook-widget">
+                  <!-- Facebook Page Plugin -->
+                  <div id="fb-root"></div>
+                  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0"></script>
+                  <div class="fb-page" 
+                      data-href="https://www.facebook.com/mannyo.man.10" 
+                      data-tabs="timeline" 
+                      data-width="300" 
+                      data-height="300" 
+                      data-small-header="false" 
+                      data-adapt-container-width="true" 
+                      data-hide-cover="false" 
+                      data-show-facepile="true">
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-left mt-4">
+            <p class="m-0 text-secondary">© 2025 Sock Waves All rights reserved. | Develop By: <a href="#" class="text-secondary text-decoration-underline">Gus Raja</a></p>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
